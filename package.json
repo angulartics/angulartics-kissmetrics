@@ -1,0 +1,40 @@
+{
+  "name": "angulartics-kissmetrics",
+  "version": "0.1.0",
+  "description": "Kissmetrics plugin for Angulartics",
+  "keywords": [
+    "kissmetrics",
+    "analytics",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "Luis Farzati <lfarzati@gmail.com> (https://github.com/luisfarzati)",
+  "contributors": [
+    "Tim Elfelt <timelf123@gmail.com> (https://github.com/timelf123)",
+    "Jacobo Tarragon <jacobo@onevest.com> (https://github.com/jminuscula)",
+    "Stephen <steveyoung359@gmail.com> (https://github.com/theWickedWebDev)",
+    "Ryan Done <rbdone@gmail.com> (https://github.com/rbdone)",
+    "Cesar Andreu <cesarandreu@gmail.com> (https://github.com/cesarandreu)"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-kissmetrics.js --compress --source-map dist/angulartics-kissmetrics.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-kissmetrics.min.js.map -o dist/angulartics-kissmetrics.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angulartics/angulartics-kissmetrics"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-kissmetrics/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angulartics": "~0.18.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
