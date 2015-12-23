@@ -5,7 +5,7 @@
 Kissmetrics plugin for [Angulartics](http://github.com/luisfarzati/angulartics).
 
 ## Important Note
-This plugin has no maintainers at the moment. If you use Kissmetrics and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-kissmetrics/issues/new?title=I+want+to+join+as+maintainer).
+This plugin has only one maintainer at the moment. If you use Kissmetrics and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-kissmetrics/issues/new?title=I+want+to+join+as+maintainer).
 
 ## Install
 
